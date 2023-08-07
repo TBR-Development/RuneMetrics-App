@@ -1,7 +1,7 @@
 # RuneMetrics App
 Natievfier scripts for compiling a RuneMetrics Desktop app.
 
-[RuneMetrics][ICON]
+![RuneMetrics][ICON]
 
 ## Instructions
 The following instructions will explain how to use these scripts.
@@ -43,4 +43,4 @@ The following instructions will explain how to use these scripts.
 
 [NVM_HOMEBREW]: https://collabnix.com/how-to-install-and-configure-nvm-on-mac-os/
 
-[ICON]: https://raw.githubusercontent.com/TBR-Development/RuneMetrics-App/main/res/icon.png
+[ICON]: res/icon.png
