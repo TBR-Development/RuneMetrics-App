@@ -11,9 +11,9 @@ RuneMetrics webapp.
 
 ## Screenshot(s)
 
-![Mobile Screenshot][MOBILE_SCREENSHOT]
+![Screenshot_1][MOBILE_SCREENSHOT]
 
-Mobile users can download this app from [GoNative][GONATIVE]
+Android and iOS users can download this app at [GoNative.io][GONATIVE]
 
  
 ## Instructions
