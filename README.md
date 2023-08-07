@@ -50,7 +50,7 @@ The following instructions will explain how to compile and build your own app fr
  npm install -g nativefier
  nativefier -p darwin --arch 'x64' -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' --tray true --darwin-dark-mode-support true --bounce true --counter true --enable-es3-apis --icon 'res/icon.png' --internal-urls '(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)' 'out'
  ```
-3. Once compiled, your app should be located in the `out` folder. Simply double click the `RuneMetrics.app` file to grant it permission to run. (Note: Due to Apple security policies, you may need to register for an apple developer account to run this app on your MacOS.)
+3. Once compiled, your app should be located in the `out` folder. Simply double click the `RuneMetrics.app` file to grant it permission to run. (Note: Due to Apple security policies, you may need to register for an apple developer account to run unsigned app(s) on your MacOS.)
 
 [NVM_WINDOWS]: https://github.com/coreybutler/nvm-windows
 
