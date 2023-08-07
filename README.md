@@ -3,8 +3,11 @@ Natievfier scripts for compiling a RuneMetrics Desktop app.
 
 ![RuneMetrics][ICON]
 
+Windows users can download a prebuilt SFX installer from the [releases][RELEASES]
+
+ 
 ## Instructions
-The following instructions will explain how to use these scripts.
+The following instructions will explain how to use these scripts to compile and build your own app from source.
 
 ### Windows
 
@@ -41,6 +44,8 @@ The following instructions will explain how to use these scripts.
 
 [NVM_WINDOWS]: https://github.com/coreybutler/nvm-windows
 
-[NVM_HOMEBREW]: https://collabnix.com/how-to-install-and-configure-nvm-on-mac-os/
+[NVM_HOMEBREW]: https://collabnix.com/how-to-install-and-configure-nvm-on-mac-os
 
 [ICON]: res/icon.png
+
+[RELEASES]: https://github.com/TBR-Development/RuneMetrics-App/releases
