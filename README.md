@@ -14,7 +14,7 @@ The following instructions will explain how to use these scripts to compile and 
 1. Download and install the latest stable version of NodeJS. You can use [NVM for Windows][NVM_WINDOWS] to do this easily.
 2. Once that has finished, run the following command(s) in Windows Terminal and wait for it to finish.
  ```sh
- git clone https://github.com/TRB-Development/RuneMetrics-App.git && cd RuneMetrics-App
+ git clone https://github.com/TBR-Development/RuneMetrics-App.git && cd RuneMetrics-App
  npm install -g nativefier
  nativefier -u firefox -n "RuneMetrics" "https://apps.runescape.com/runemetrics/app/" /
     --tray true /
@@ -31,7 +31,7 @@ The following instructions will explain how to use these scripts to compile and 
 1. Download and install the latest stable release of NodeJS. You can do so easily by using the version of NVM for your distribution
 2. Once that has finished, run the following command(s) in terminal and wait for it to finish.
  ```sh
- git clone https://github.com/TRB-Development/RuneMetrics-App.git && cd RuneMetrics-App
+ git clone https://github.com/TBR-Development/RuneMetrics-App.git && cd RuneMetrics-App
  npm install -g nativefier
  nativefier -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' /
     --tray true /
@@ -48,7 +48,7 @@ The following instructions will explain how to use these scripts to compile and 
 1. Download and install the latest stable release of NodeJS. You can do this easily by using [NVM][NVM_HOMEBREW].
 2. Once that has finished, run the following command(s) in your terminal.
  ```sh
- git clone https://github.com/TRB-Development/RuneMetrics-App.git && cd RuneMetrics-App
+ git clone https://github.com/TBR-Development/RuneMetrics-App.git && cd RuneMetrics-App
  npm install -g nativefier
  nativefier -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' /
     --tray true /
