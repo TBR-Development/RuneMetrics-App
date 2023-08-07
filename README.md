@@ -37,7 +37,7 @@ The following instructions will explain how to compile and build your own app fr
  ```sh
  git clone https://github.com/TBR-Development/RuneMetrics-App.git && cd RuneMetrics-App
  npm install -g nativefier
- nativefier -p linux --arch 'x64' -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' --tray true --asar --enable-es3-apis --background-color '#333333' --icon 'res/icon.ico' --internal-urls '(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)' 'out'
+ nativefier -p linux --arch 'x64' -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' --tray true --asar --enable-es3-apis --background-color '#333333' --icon 'res/icon.png' --internal-urls '(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)' 'out'
  ```
 3. Once compiled your app should be located in the `out` folder. Simply move the your app's own folder wherever you want and run the contained `RuneMetrics` file to launch your new app.
 
@@ -48,7 +48,7 @@ The following instructions will explain how to compile and build your own app fr
  ```sh
  git clone https://github.com/TBR-Development/RuneMetrics-App.git && cd RuneMetrics-App
  npm install -g nativefier
- nativefier -p darwin --arch 'x64' -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' --tray true --darwin-dark-mode-support true --bounce true --counter true --enable-es3-apis --icon 'res/icon.ico' --internal-urls '(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)' 'out'
+ nativefier -p darwin --arch 'x64' -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' --tray true --darwin-dark-mode-support true --bounce true --counter true --enable-es3-apis --icon 'res/icon.png' --internal-urls '(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)' 'out'
  ```
 3. Once compiled, your app should be located in the `out` folder. Simply move the `RuneMetrics.app` file to your `Applications` folder to make it visible in your Finder and double click it to grant it permission to run. (Note: Due to Apple security policies, you may need to register for an apple developer account to run this app on your MacOS.)
 
