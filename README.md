@@ -17,7 +17,7 @@ Mobile users can download this app from [GoNative][GONATIVE]
 
  
 ## Instructions
-The following instructions will explain how to use these scripts to compile and build your own app from source.
+The following instructions will explain how to compile and build your own app from source on Desktop.
 
 ### Windows
 
