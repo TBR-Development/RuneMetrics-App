@@ -38,7 +38,7 @@ The following instructions will explain how to use these scripts to compile and 
  ```sh
  git clone https://github.com/TBR-Development/RuneMetrics-App.git && cd RuneMetrics-App
  npm install -g nativefier
- nativefier -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' --tray true --darwin-dark-mode-support true --enable-es3-apis --icon 'res/icon.ico' --internal-urls '(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)' 'out'
+ nativefier -u firefox -n 'RuneMetrics' 'https://apps.runescape.com/runemetrics/app/' --tray true --darwin-dark-mode-support true --bounce true --counter true --enable-es3-apis --icon 'res/icon.ico' --internal-urls '(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)' 'out'
  ```
 3. Once compiled, your app should be located in the `out` folder. Simply move the `RuneMetrics.app` file to your `Applications` folder to make it visible in your Finder and double click it to grant it permission to run. (Note: Due to Apple security policies, you may need to register for an apple developer account to run this app on your MacOS.)
 
