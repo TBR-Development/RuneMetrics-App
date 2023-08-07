@@ -1,0 +1,16 @@
+{
+  "name": "runemetrics-app",
+  "version": "1.0.0",
+  "description": "RuneMetrics desktop app",
+  "repository": "https://github.com/tbr-development/RuneMetrics-App.git",
+  "author": "TBR-Development",
+  "license": "MIT",
+  "scripts": {
+    "build-windows": "res/windows.bat",
+    "build-linux": "chmod +X res/linux.sh && sh res/linux.sh",
+    "build-darwin": "chmod +X res/mac.sh && sh res/darwin.sh"
+  },
+  "dependencies": {
+    "nativefier": "^50.1.1"
+  }
+}
