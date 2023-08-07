@@ -20,6 +20,7 @@ The following instructions will explain how to use these scripts to compile and 
     --tray true /
     --asar /
     --enable-es3-apis /
+    --background-color "#333333" /
     --icon "res/icon.ico" /
     --internal-urls "(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)"
  ```
@@ -36,6 +37,7 @@ The following instructions will explain how to use these scripts to compile and 
     --tray true /
     --asar /
     --enable-es3-apis /
+    --background-color '#333333' /
     --icon 'res/icon.ico' /
     --internal-urls '(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)'
  ```
