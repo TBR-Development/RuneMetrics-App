@@ -16,13 +16,7 @@ The following instructions will explain how to use these scripts to compile and 
  ```sh
  git clone https://github.com/TBR-Development/RuneMetrics-App.git && cd RuneMetrics-App
  npm install -g nativefier
- nativefier -u firefox -n "RuneMetrics" "https://apps.runescape.com/runemetrics/app/" /
-    --tray true /
-    --asar /
-    --enable-es3-apis /
-    --background-color "#333333" /
-    --icon "res/icon.ico" /
-    --internal-urls "(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)"
+ nativefier -u firefox -n "RuneMetrics" "https://apps.runescape.com/runemetrics/app/" --tray true --asar --enable-es3-apis --background-color "#333333" --icon "res/icon.ico" --internal-urls "(.*?)(account\.jagex\.com|apps\.runescape\.com)(.*?)"
  ```
 3. Once complete, your compiled app should be located in the `out` folder. Simply move your app's own folder to wherever you want and run the contained `RuneMetrics.exe` file to launch your app.
 
