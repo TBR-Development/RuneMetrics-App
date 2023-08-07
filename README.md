@@ -1,7 +1,13 @@
 # RuneMetrics App
-Natievfier scripts for compiling a RuneMetrics Desktop app.
+RuneMetrics webapp.
 
 ![RuneMetrics][ICON]
+
+
+## Supported Platform(s)
+
+ * **Desktop**: Windows, Linux, MacOS
+ * **Mobile**: Android, iOS
 
 ## Screenshot(s)
 
