@@ -43,4 +43,4 @@ The following instructions will explain how to use these scripts.
 
 [NVM_HOMEBREW]: https://collabnix.com/how-to-install-and-configure-nvm-on-mac-os/
 
-[ICON]: res/icon.png
+[ICON]: https://raw.githubusercontent.com/TBR-Development/RuneMetrics-App/main/res/icon.png
