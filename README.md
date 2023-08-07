@@ -5,6 +5,8 @@ Natievfier scripts for compiling a RuneMetrics Desktop app.
 
 Windows users can download a prebuilt SFX installer from the [releases][RELEASES]
 
+Mobile users can download this app from [GoNative][GONATIVE]
+
  
 ## Instructions
 The following instructions will explain how to use these scripts to compile and build your own app from source.
@@ -49,3 +51,5 @@ The following instructions will explain how to use these scripts to compile and 
 [ICON]: res/icon.png
 
 [RELEASES]: https://github.com/TBR-Development/RuneMetrics-App/releases
+
+[GONATIVE]: https://gonative.io/share/qybzoe
