@@ -56,6 +56,8 @@ The following instructions will explain how to use these scripts.
 
 [NVM_HOMEBREW]: https://collabnix.com/how-to-install-and-configure-nvm-on-mac-os/
 
+[GONATIVE]: https://gonative.io/share/qybzoe
+
 [MOBILE_SCREENSHOT]: https://user-images.githubusercontent.com/17615050/258685135-32d2aab6-5a12-435c-b1af-d08415635703.png
 
 [ICON]: res/icon.png
