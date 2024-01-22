@@ -40,10 +40,10 @@ MacOS users can use `CMD+Q` to quit the app.
 
 ---
 
-🧑‍⚖️ This is an unofficial application and not published or supported by Google, LLC. Intended for personal and educational purposes. I am liable for nothing.
+🧑‍⚖️ This is an unofficial application and not published or supported by Jagex. Intended for personal and educational purposes. I am liable for nothing.
 
 [GONATIVE]: https://gonative.io/share/qybzoe
 
 [MOBILE_SCREENSHOT]: https://user-images.githubusercontent.com/17615050/258685135-32d2aab6-5a12-435c-b1af-d08415635703.png
 
-[ICON]: res/icon.png
+[ICON]: icon.png
