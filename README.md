@@ -15,46 +15,32 @@ RuneMetrics webapp.
 
 Android and iOS users can download this app at [GoNative.io][GONATIVE]
 
- 
-## Instructions
-The following instructions will explain how to use these scripts.
 
-### Windows
+**Instructions:**
 
-1. Download and install the latest stable version of NodeJS. You can use [NVM for Windows][NVM_WINDOWS] to do this easily.
-2. Once that has finished, run the following command(s) in Windows Terminal and wait for it to finish.
- ```sh
- npm install -g yarn -y
- yarn install
- yarn build-windows
- ```
-3. Once complete, your compiled app should be located inside the `out` folder. Simply run the contained `RuneMetrics.exe` file to launch your app.
+1. Run the following commands in your terminal:
 
-### Linux
+```sh
+git clone https://github.com/tbr-development/YT-Music-Player
+cd YT-Music-Player
+yarn install
+yarn package
+```
 
-1. Download and install the latest stable release of NodeJS. You can do so easily by using the version of NVM for your distribution
-2. Once that has finished, run the following command(s) in terminal and wait for it to finish.
- ```sh
- npm install -g yarn -y
- yarn install
- yarn build-linux
- ```
-3. Once compiled, your app should be located in the `out` folder. Simply run the contained `RuneMetrics` file to launch your new app.
+2. Check the `out` folder for the packaged application to run.
 
-### MacOS
+---
 
-1. Download and install the latest stable release of NodeJS. You can do this easily by using [NVM][NVM_HOMEBREW].
-2. Once that has finished, run the following command(s) in your terminal.
- ```sh
- npm install -g yarn -y
- yarn install
- yarn build-darwin
- ```
-3. Once compiled, your app should be located in the `out` folder. Simply double-click the `RuneMetrics.app` file to grant it permission to run. After that, you can run it normally. (Note: Due to Apple security policies, you may need to register for an apple developer account to run this app on your MacOS.)
+**Notes**
 
-[NVM_WINDOWS]: https://github.com/coreybutler/nvm-windows
+If you want to package a squirrel based app/installer, you can use `yarn make`. Once done check the `out/make` folder for your new squirrel based app/installer.
 
-[NVM_HOMEBREW]: https://collabnix.com/how-to-install-and-configure-nvm-on-mac-os/
+Windows and linux users can use `Control+X` or `Command+X` to quit the app.
+MacOS users can use `CMD+Q` to quit the app.
+
+---
+
+🧑‍⚖️ This is an unofficial application and not published or supported by Google, LLC. Intended for personal and educational purposes. I am liable for nothing.
 
 [GONATIVE]: https://gonative.io/share/qybzoe
 

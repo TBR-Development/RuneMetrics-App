@@ -1,16 +1,57 @@
 {
-  "name": "virtual-customs",
-  "version": "1.1.0",
-  "description": "Virtual Customs desktop app",
-  "repository": "https://github.com/tbr-development/VirtualCustoms-Nativefier.git",
-  "author": "TBR-Development",
-  "license": "MIT",
+  "name": "runemetrics",
+  "productName": "RuneMetrics",
+  "description": "Unofficial Electron app for RuneMetrics",
+  "keywords": [
+    "electron",
+    "runemetrics"
+  ],
+  "main": "./main.js",
+  "version": "2.0.0",
+  "author": "TBR Development",
   "scripts": {
-    "build-windows": "res/windows.bat",
-    "build-linux": "chmod +X res/linux.sh && sh res/linux.sh",
-    "build-darwin": "chmod +X res/mac.sh && sh res/darwin.sh"
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
   },
   "dependencies": {
-    "nativefier": "^50.1.1"
+    "menubar": "*"
+  },
+  "devDependencies": {
+    "electron": "15.3.0",
+    "@electron-forge/cli": "^6.0.0-beta.59",
+    "@electron-forge/maker-deb": "^6.0.0-beta.59",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.59",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.59",
+    "@electron-forge/maker-zip": "^6.0.0-beta.59"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "platform": "all",
+        "icon": "./Icon"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel"
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
   }
 }
